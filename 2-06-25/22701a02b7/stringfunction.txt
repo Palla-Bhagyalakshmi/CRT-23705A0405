@@ -1,0 +1,15 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    StringBuilder sb =new StringBuilder();
+	    sb.append("Hello");
+	    sb.append("     ");
+	    sb.append("World");
+	    String result=sb.toString();
+	    if (result.equals("Hello    World")) {
+	        System.out.println("Strings are equal");
+	} else {
+	    System.out.println("Strings are not equal");
+	}
+}
+}
